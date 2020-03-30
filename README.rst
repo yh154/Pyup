@@ -4,20 +4,24 @@ Installation
 ------------
 
 * Step 1: install miniconda3 of your system
+
 .. code:: bash
 
    $ sh Miniconda3-latest-MacOSX-x86_64.sh
 
 * Step 2: install snakemake
+
 .. code:: bash
 
    $ conda install -c conda-forge -c bioconda snakemake=5.11.2
 
-*Check snakemake installed successfully*
+Check snakemake installed successfully
+
 .. code:: bash
+
    $ which snakemake && snakemake --version
 
-   if you didn't see snakemake in your path, you may close and re-open your terminal to activate the effects, and check again.
+if you didn't see snakemake in your path, you may close and re-open your terminal to activate the effects, and check again.
 
  * Step3: download and run
  .. code:: bash
