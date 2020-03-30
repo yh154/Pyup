@@ -107,4 +107,5 @@ rule cat_roi:
     output:
         "Pyup.output.txt"
     shell:
-        "echo -e \"chr\tstart\tend\tid\tmedian_zscore\tstrand\twidth\tmedian_coverage\" | cat - {input} > {output}"
+        "echo -e \"chr\tstart\tend\tid\tmedian_zscore\tstrand\twidth\tmedian_coverage\" | "
+        "cat - {input} > {output} && if [ $(ls -1 chr.*.bam | wc -l) -gt 0 ]; then rm chr.*.bam;fi"
