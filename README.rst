@@ -3,17 +3,17 @@ A snakemake pipeline for identification of extreme reads pile-up sites across ge
 Installation
 ------------
 
-* Step1: install miniconda3 of your system
+* Step 1: install miniconda3 of your system
 .. code:: bash
 
    $ sh Miniconda3-latest-MacOSX-x86_64.sh
 
-* Step2: install snakemake
+* Step 2: install snakemake
 .. code:: bash
 
    $ conda install -c conda-forge -c bioconda snakemake=5.11.2
 
-##Check snakemake installed successfully
+** Check snakemake installed successfully
 .. code:: bash
    $ which snakemake && snakemake --version
 
