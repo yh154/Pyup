@@ -23,8 +23,9 @@ Check snakemake installed successfully
 
 if you didn't see snakemake in your path, you may close and re-open your terminal to activate the effects, and check again.
 
- * Step3: download and run
- .. code:: bash
+* Step3: download and run
+ 
+.. code:: bash
 
     $ git clone https://github.com/yh154/Pyup.github
     $ cd Pyup
