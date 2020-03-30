@@ -1,0 +1,12 @@
+
+bam:
+    "TestData.chrom.small.bam"
+chrom:
+    "10,11"
+params:
+    threads: 2
+
+running_median:
+    site_width: 26    # width of pileup regions to identify
+    ratio: 2          # coverage ratio of pileup vs background
+    min_depth: 10     # minimum coverage for a pileup site
