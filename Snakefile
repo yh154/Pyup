@@ -54,7 +54,6 @@ rule samtools_sort:
     params:
         "chr{sample}"
     shell:
-        #"samtools sort -T {wildcards.sample} -o {output} {input}"
         "samtools sort -T {wildcards.sample} -o {output} {input}"
 
 rule samtools_index:
