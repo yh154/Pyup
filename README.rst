@@ -28,7 +28,9 @@ if you didn't see snakemake in your path, you may close and re-open your termina
 .. code:: bash
 
      $ git clone https://github.com/yh154/Pyup.git
+     
      $ cd Pyup
+     
      $ snakemake --cores 1 --use-conda -s Snakefile
 
 Input and Output
