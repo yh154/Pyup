@@ -47,3 +47,7 @@ Edit config.yaml using a text editor to indicate input file location, chromosome
 Dependencies
 ------------
 The pipeline is dependent on `conda3`, `snakemake`, `python3`, `bamtools`, `samtools`, `umi_tools`
+
+
+![alt text](https://raw.githubusercontent.com/yh154/Pyup/master/workflow.png)
+
