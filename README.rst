@@ -35,13 +35,13 @@ if you didn't see snakemake in your path, you may close and re-open your termina
 
 Input and Output
 ----------------
-   The pipeline expects a single bam file from 10x Genomics RNA-Seq experiment and identify chromosome-wise pileups.
+The pipeline expects a single bam file from 10x Genomics RNA-Seq experiment and identify chromosome-wise pileups.
 
-   The outputs of the pipeline contain a single 'Pyup.output.txt' of identified extreme pileup regions and quantification details for each chromosome.
+The outputs of the pipeline contain a single 'Pyup.output.txt' of identified extreme pileup regions and quantification details for each chromosome.
 
-   Edit config.yaml using a text editor to indicate input file location, chromosome of interests, and to change parameters.
+Edit config.yaml using a text editor to indicate input file location, chromosome of interests, and to change parameters.
 
-   Note: the chromesomal names should be the same as in the header of input bam, i.e. "chr1" is considered different from "1".
+**Note: the chromesomal names should be the same as in the header of input bam, i.e. "chr1" is considered different from "1".**
 
 
 Dependencies
