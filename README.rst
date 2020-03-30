@@ -16,7 +16,6 @@ Installation
 
    Check snakemake installed successfully
 
-.. code:: bash
    $ which snakemake && snakemake --version
 
    if you didn't see snakemake in your path, you may close and re-open your terminal to activate the effects, and check again.
