@@ -3,7 +3,7 @@ A snakemake pipeline for identification of extreme reads pile-up sites across ge
 Installation
 ------------
 
-* Step 1: install miniconda3 (`download <https://docs.conda.io/en/latest/miniconda.html>`_). For MacOS:
+* Step 1: install miniconda3 (`Download <https://docs.conda.io/en/latest/miniconda.html>`_). For MacOS:
 
 .. code:: bash
 
