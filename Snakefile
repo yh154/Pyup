@@ -15,9 +15,6 @@ SAMPLES=CHROMS.split(",")
 rule all:
     input:
         "Pyup.output.txt"
-        #expand("{sample}.sorted.dedup.bam.nozero.depth", sample=SAMPLES)
-        #expand("chr.{sample}.roi.txt", sample=SAMPLES)
-        #expand("{sample}.filtered.bam", sample=SAMPLES)
 
 rule samtools_split_bam:
     input:
