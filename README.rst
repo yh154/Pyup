@@ -13,7 +13,7 @@ Installation
 
    $ conda install -c conda-forge -c bioconda snakemake=5.11.2
 
-* Check snakemake installed successfully
+##Check snakemake installed successfully
 .. code:: bash
    $ which snakemake && snakemake --version
 
