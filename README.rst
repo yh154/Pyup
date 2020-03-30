@@ -7,29 +7,29 @@ Installation
 
 .. code:: bash
 
-   $ sh Miniconda3-latest-MacOSX-x86_64.sh
+     $ sh Miniconda3-latest-MacOSX-x86_64.sh
 
 * Step 2: install snakemake
 
 .. code:: bash
 
-   $ conda install -c conda-forge -c bioconda snakemake=5.11.2
+     $ conda install -c conda-forge -c bioconda snakemake=5.11.2
 
 Check snakemake installed successfully
 
 .. code:: bash
 
-   $ which snakemake && snakemake --version
+     $ which snakemake && snakemake --version
 
 if you didn't see snakemake in your path, you may close and re-open your terminal to activate the effects, and check again.
 
-* Step3: download and run
+* Step 3: download and run
  
 .. code:: bash
 
-    $ git clone https://github.com/yh154/Pyup.github
-    $ cd Pyup
-    $ snakemake --cores 1 --use-conda -s Snakefile
+     $ git clone https://github.com/yh154/Pyup.git
+     $ cd Pyup
+     $ snakemake --cores 1 --use-conda -s Snakefile
 
 Input and Output
 ----------------
