@@ -99,7 +99,7 @@ rule running_median:
         ratio=config["running_median"]["ratio"],
         min_depth=config["running_median"]["min_depth"]
     script:
-        "scripts/Pyup_miRNA.py"
+        "scripts/Pyup.py"
 
 rule cat_roi:
     input:
